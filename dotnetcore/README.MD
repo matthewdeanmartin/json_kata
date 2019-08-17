@@ -1,0 +1,1 @@
+Json Kata implmented in dotnetcore
