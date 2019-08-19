@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+.vagrant
+
+# build stuff
+.build_state
+dist
+simple_calls.egg-info
+coverage

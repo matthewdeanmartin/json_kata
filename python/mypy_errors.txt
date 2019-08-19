@@ -1,0 +1,26 @@
+simple_calls\time_it_class.py:33: error: Missing return statement
+simple_calls\parallel_calls.py:13: error: Function is missing a return type annotation
+simple_calls\parallel_calls.py:19: error: Function is missing a return type annotation
+simple_calls\parallel_calls.py:19: note: Use "-> None" if function does not return a value
+simple_calls\parallel_calls.py:26: error: Function is missing a return type annotation
+simple_calls\parallel_calls.py:26: note: Use "-> None" if function does not return a value
+simple_calls\parallel_calls.py:33: error: Function is missing a return type annotation
+simple_calls\parallel_calls.py:42: error: Function is missing a return type annotation
+simple_calls\parallel_calls.py:42: note: Use "-> None" if function does not return a value
+simple_calls\parallel_calls.py:49: error: Call to untyped function "parallel_processes" in typed context
+simple_calls\parallel_calls.py:53: error: Call to untyped function "parallel_threads" in typed context
+simple_calls\parallel_calls.py:60: error: Call to untyped function "run" in typed context
+simple_calls\main.py:11: error: Function is missing a return type annotation
+simple_calls\main.py:17: error: Function is missing a return type annotation
+simple_calls\main.py:17: note: Use "-> None" if function does not return a value
+simple_calls\main.py:18: error: Call to untyped function "fetch" in typed context
+simple_calls\main.py:25: error: Function is missing a return type annotation
+simple_calls\main.py:31: error: Function is missing a return type annotation
+simple_calls\main.py:43: error: Function is missing a return type annotation
+simple_calls\main.py:47: error: Function is missing a type annotation
+simple_calls\main.py:56: error: Function is missing a return type annotation
+simple_calls\main.py:56: note: Use "-> None" if function does not return a value
+simple_calls\main.py:58: error: Call to untyped function "single" in typed context
+simple_calls\main.py:62: error: Call to untyped function "single" in typed context
+simple_calls\main.py:66: error: Call to untyped function "run" in typed context
+

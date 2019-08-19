@@ -52,6 +52,7 @@ class time_it(object):
 
 
 if __name__ == "__main__":
+
     def run():
         with time_it():
             single()
@@ -61,6 +62,5 @@ if __name__ == "__main__":
                 single()
 
             print("Average %s" % clock.format_time(clock.elapsed() / 10))
-
 
     run()

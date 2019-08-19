@@ -25,18 +25,20 @@ def parallel_processes():
 
 def parallel_threads():
     # light weight processes.
-    pool = ThreadPool(processes=mp.cpu_count(), )
+    pool = ThreadPool(processes=mp.cpu_count())
     results = [pool.apply(fetch, args=()) for row in [range(0, 10)]]
     pool.close()
 
 
-def parallel_threads_all_at_once(count:int):
+def parallel_threads_all_at_once(count: int):
     # light weight processes.
-    pool = ThreadPool(processes=count, )
+    pool = ThreadPool(processes=count)
     results = [pool.apply(fetch, args=()) for row in [range(0, count)]]
     pool.close()
 
+
 if __name__ == "__main__":
+
     def run():
         # notes- processes 2x faster, threads 10x faster, threads all at once 15x faster
 
@@ -54,6 +56,5 @@ if __name__ == "__main__":
         with time_it():
             # we are io bound... this is going to be fastest
             parallel_threads_all_at_once(10)
-
 
     run()

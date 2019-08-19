@@ -1,0 +1,39 @@
+************* Module simple_calls.main
+simple_calls\main.py:11:0: C0111: Missing function docstring (missing-docstring)
+simple_calls\main.py:17:0: C0111: Missing function docstring (missing-docstring)
+simple_calls\main.py:21:0: C0111: Missing class docstring (missing-docstring)
+simple_calls\main.py:21:0: R0205: Class 'time_it' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+simple_calls\main.py:31:4: C0111: Missing method docstring (missing-docstring)
+simple_calls\main.py:31:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+simple_calls\main.py:43:4: C0111: Missing method docstring (missing-docstring)
+simple_calls\main.py:26:8: W0201: Attribute 'start_time' defined outside __init__ (attribute-defined-outside-init)
+simple_calls\main.py:48:8: W0201: Attribute 'end_time' defined outside __init__ (attribute-defined-outside-init)
+simple_calls\main.py:49:8: W0201: Attribute 'elapsed_seconds' defined outside __init__ (attribute-defined-outside-init)
+simple_calls\main.py:56:4: C0111: Missing function docstring (missing-docstring)
+************* Module simple_calls.parallel_calls
+simple_calls\parallel_calls.py:13:0: C0111: Missing function docstring (missing-docstring)
+simple_calls\parallel_calls.py:19:0: C0111: Missing function docstring (missing-docstring)
+simple_calls\parallel_calls.py:22:4: W0612: Unused variable 'results' (unused-variable)
+simple_calls\parallel_calls.py:26:0: C0111: Missing function docstring (missing-docstring)
+simple_calls\parallel_calls.py:29:4: W0612: Unused variable 'results' (unused-variable)
+simple_calls\parallel_calls.py:33:0: C0111: Missing function docstring (missing-docstring)
+simple_calls\parallel_calls.py:36:4: W0612: Unused variable 'results' (unused-variable)
+simple_calls\parallel_calls.py:42:4: C0111: Missing function docstring (missing-docstring)
+************* Module simple_calls.tests
+simple_calls\tests.py:1:0: C0111: Missing module docstring (missing-docstring)
+simple_calls\tests.py:4:0: C0111: Missing function docstring (missing-docstring)
+************* Module simple_calls.time_it_class
+simple_calls\time_it_class.py:23:0: C0111: Missing class docstring (missing-docstring)
+simple_calls\time_it_class.py:23:0: R0205: Class 'time_it' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+simple_calls\time_it_class.py:33:4: C0111: Missing method docstring (missing-docstring)
+simple_calls\time_it_class.py:33:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+simple_calls\time_it_class.py:45:4: C0111: Missing method docstring (missing-docstring)
+simple_calls\time_it_class.py:28:8: W0201: Attribute 'start_time' defined outside __init__ (attribute-defined-outside-init)
+simple_calls\time_it_class.py:50:8: W0201: Attribute 'end_time' defined outside __init__ (attribute-defined-outside-init)
+simple_calls\time_it_class.py:51:8: W0201: Attribute 'elapsed_seconds' defined outside __init__ (attribute-defined-outside-init)
+************* Module simple_calls._version
+simple_calls\_version.py:1:0: C0111: Missing module docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.09/10 (previous run: 7.09/10, +0.00)
+

@@ -17,19 +17,20 @@ with time_it(show=False) as clock:
 """
 import math
 import time
+from typing import Any
 
 
 class time_it(object):
-    def __init__(self, show: bool = True):
+    def __init__(self, show: bool = True) -> None:
         self.show = show
 
-    def __enter__(self):
+    def __enter__(self) -> "time_it":
         self.start_time = time.perf_counter()  # in seconds
         # don't forget return self
         # https://stackoverflow.com/questions/4835611/pythons-with-statement-target-is-unexpectedly-none
         return self
 
-    def format_time(self, seconds: float):
+    def format_time(self, seconds: float) -> str:
         whole_seconds = math.floor(seconds)
         milliseconds = math.floor((seconds - whole_seconds) * 1000)
         if whole_seconds and milliseconds:
@@ -41,11 +42,11 @@ class time_it(object):
         if milliseconds:
             return f"{milliseconds}ms"
 
-    def elapsed(self):
+    def elapsed(self) -> float:
         so_far = time.perf_counter()
         return so_far - self.start_time
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
+    def __exit__(self, exc_type: Any, exc_val: Any, exc_tb: Any) -> None:
         self.end_time = time.perf_counter()
         self.elapsed_seconds = self.end_time - self.start_time
         if self.show:

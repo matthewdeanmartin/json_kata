@@ -4,6 +4,18 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pynt = "*"
+semantic-version = "*"
+checksumdir = "*"
+pynt-contrib = "*"
+vulture = "*"
+mypy = "*"
+nose = "*"
+pytest = "*"
+pytest-cov = "*"
+docutils = "*"
+pipenv-to-requirements = "*"
+jiggle-version = "*"
 
 [packages]
 requests = "*"
