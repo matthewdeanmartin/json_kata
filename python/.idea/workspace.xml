@@ -2,49 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f913d2-215f-4269-846f-47646444689d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prospector/simple_calls_style.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/hyperv/box_meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/coverage_html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/jquery.ba-throttle-debounce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/jquery.hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/jquery.isonscreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/jquery.tablesorter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/keybd_closed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/keybd_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/simple_calls___init___py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/simple_calls_main_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/simple_calls_parallel_calls_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/simple_calls_test_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/simple_calls_tests_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/simple_calls_time_it_class_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/status.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dead_code.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect-secrets-results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lint.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypy_errors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pylintrc.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements-dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_calls/_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_calls/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/http_client_kata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/http_client_kata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_calls/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_calls/wordlist.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_calls/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_calls/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_calls/parallel_calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_calls/parallel_calls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_calls/time_it_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_calls/time_it_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypy_errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mypy_errors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_calls/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_calls/_version.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +54,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in tests.py">
+  <component name="RunManager" selected="Python.game">
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="http_client_kata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple_calls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_calls/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="http_client_kata" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +113,7 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in tests.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in C:/Users/matth/Documents/GitHub/json_kata/python/test/tests.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="http_client_kata" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +132,13 @@
     <list>
       <item itemvalue="Docker.json_kata_python" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python tests.Nosetests in tests.py" />
+      <item itemvalue="Python tests.Nosetests in C:/Users/matth/Documents/GitHub/json_kata/python/test/tests.py" />
+      <item itemvalue="Python.game" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Nosetests in tests.py" />
+        <item itemvalue="Python.game" />
+        <item itemvalue="Python tests.Nosetests in C:/Users/matth/Documents/GitHub/json_kata/python/test/tests.py" />
         <item itemvalue="Python.test" />
         <item itemvalue="Docker.json_kata_python" />
       </list>
@@ -171,7 +157,7 @@
       <workItem from="1566049731408" duration="4927000" />
       <workItem from="1566226469274" duration="1513000" />
       <workItem from="1566228036213" duration="2893000" />
-      <workItem from="1566230949831" duration="1520000" />
+      <workItem from="1566230949831" duration="10169000" />
     </task>
     <servers />
   </component>
@@ -207,11 +193,17 @@
           <line>61</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simple_calls/game.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$Nosetests_in_tests_py.coverage" NAME="Nosetests in tests.py Coverage Results" MODIFIED="1566231013044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python$game.coverage" NAME="game Coverage Results" MODIFIED="1566242084070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_calls" />
     <SUITE FILE_PATH="coverage/http_client_kata$main.coverage" NAME="main Coverage Results" MODIFIED="1566053978919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_calls" />
     <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1566230927620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_calls" />
     <SUITE FILE_PATH="coverage/http_client_kata$parallel_calls.coverage" NAME="parallel_calls Coverage Results" MODIFIED="1566054112151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_calls" />

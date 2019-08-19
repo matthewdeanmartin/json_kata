@@ -23,4 +23,27 @@ simple_calls\main.py:56: note: Use "-> None" if function does not return a value
 simple_calls\main.py:58: error: Call to untyped function "single" in typed context
 simple_calls\main.py:62: error: Call to untyped function "single" in typed context
 simple_calls\main.py:66: error: Call to untyped function "run" in typed context
+simple_calls\game.py:20: error: Call to untyped function "reset" in typed context
+simple_calls\game.py:22: error: Function is missing a return type annotation
+simple_calls\game.py:22: note: Use "-> None" if function does not return a value
+simple_calls\game.py:25: error: Need type annotation for 'words' (hint: "words: List[<type>] = ...")
+simple_calls\game.py:27: error: Need type annotation for 'already_guessed' (hint: "already_guessed: List[<type>] = ...")
+simple_calls\game.py:41: error: Returning Any from function declared to return "str"
+simple_calls\game.py:41: error: Value of type "None" is not indexable
+simple_calls\game.py:50: error: Value of type "None" is not indexable
+simple_calls\game.py:56: error: Unsupported target for indexed assignment
+simple_calls\game.py:59: error: Function is missing a return type annotation
+simple_calls\game.py:84: error: Function is missing a return type annotation
+simple_calls\game.py:86: error: Need type annotation for 'possible' (hint: "possible: List[<type>] = ...")
+simple_calls\game.py:109: error: Function is missing a return type annotation
+simple_calls\game.py:115: error: Need type annotation for 'all_freq' (hint: "all_freq: Dict[<type>, <type>] = ...")
+simple_calls\game.py:132: error: Function is missing a return type annotation
+simple_calls\game.py:132: note: Use "-> None" if function does not return a value
+simple_calls\game.py:158: error: Function is missing a return type annotation
+simple_calls\game.py:158: note: Use "-> None" if function does not return a value
+simple_calls\game.py:162: error: Call to untyped function "play" in typed context
+simple_calls\game.py:165: error: Call to untyped function "reset" in typed context
+simple_calls\game.py:168: error: Call to untyped function "run" in typed context
+simple_calls\game.py:171: error: Function is missing a return type annotation
+simple_calls\game.py:171: note: Use "-> None" if function does not return a value
 
